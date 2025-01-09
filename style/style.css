@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+body{
+    background-image: url(../images/bluetecbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*nav styles*/
 .secondary-bg{
     background-color: rgb(64, 64, 240);
@@ -22,12 +28,13 @@
     margin: 10px;
 }
 .section-title{
-    font-size: 35px;
+    font-size: 50px;
+    text-shadow: 2px 2px cyan;
     font-weight: bold;
-    color: black;
+    color:white;
 }
 .section-description{
-    font-size: 18px;
+    font-size: 35px;
     color: white;
 }
 
@@ -118,4 +125,32 @@ nav li a {
     width: 580px;
     border: 10px solid cyan;
     border-radius: 50%;
+}
+
+
+/*about styles*/
+
+.about{
+    border: 3px solid cyan;
+border-radius: 25px;
+padding: 130px 150px;
+text-align:center;
+    max-width:1140px;
+    margin: 25px auto;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.item-title{
+    font-size: 25px;
+}
+
+.item-description{
+    font-weight: 600;
+    font-size: 25px;
+color: white;
 }

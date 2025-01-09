@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body{
-    background-image: url(../images/bluetecbg.jpg);
+    background-image:linear-gradient(0deg,#00000055,#000000cf), url(../images/bluetecbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -38,11 +38,15 @@ body{
     color: white;
 }
 
-.header{
+.text-center{
+    text-align: center;
+}
+
+/* .header{
     background-image:linear-gradient(0deg,#00000055,#000000cf), url(../images/bluetecbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 nav{
     display: flex;
     align-items: center;
@@ -136,7 +140,7 @@ border-radius: 25px;
 padding: 130px 150px;
 text-align:center;
     max-width:1140px;
-    margin: 25px auto;
+    margin: 100px auto;
 }
 
 .about-items{
